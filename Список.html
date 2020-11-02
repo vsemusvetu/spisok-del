@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Список дел</title>
+		<link rel="stylesheet" type="text/css" href="spisok.css">
+	</head>
+	<body>
+		<div class="fixed-container">
+		<div class="quest block quest-name">
+				<h2>Список дел:</h2>
+				<p class="case-none">Список пуст...</p>
+			    <div class="get-case-boss"></div>
+		</div>
+		<div class="input block">
+			<h2>Добавить новое дело</h2>
+			<div class="quest-text">
+				<div class="case">
+					<div class="input-text-block">
+					   <p>* Название</p>
+					   <input id="case_name" type="text" class="case_text" name="name">
+				    </div>
+				    <div class="input-text-block">
+				    	<p>* Описание</p>
+				    	<textarea id="case_text" class="case_text" cols="30" rows="15" wrap="hard" name="message"></textarea>
+				    </div>
+				    <div class="input-text-block">
+				    	<button class="button_case" id="button-news">Добавить дело</button>
+				    </div>
+				</div>	
+			</div>
+			</div>
+		</div>
+		<script src="jquery-3.5.0.min.js"></script>
+	    <script src="spisok.js"></script>
+	</body>
+</html>
